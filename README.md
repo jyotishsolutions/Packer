@@ -27,6 +27,6 @@ In this example we are just create a aws AMI [ cloning a existing ] aws ubuntu t
 Command to execute the example1.json  [ replace aws access key and secret key with your account details ]
 
 $ packer build \
-    -var 'aws_access_key=TTRETDSFDFSDFDSFDSFDSFD' \
+    -var 'aws_access_key=xxxx' \
     -var 'aws_secret_key=Ytrtretret4654654654654regrgtretret' \
     example.json
