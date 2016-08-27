@@ -33,3 +33,18 @@ $ packer build \
     -var 'aws_access_key=xxxx' \
     -var 'aws_secret_key=Ytrtretret4654654654654regrgtretret' \
     example.json
+```
+# aws_ami_provisioning 
+```
+The aws_ami_provisioning folder Simple and small process provision a AWS AMI with apache and customer index.html file.
+we are using following softwares - packer ansible and aws account.
+To execute it..  [ replace aws access key and secret key with your account details ]
+
+$cd aws_ami_provisioning
+$sudo packer build \
+    -var 'aws_access_key=xxxxx' \
+	-var 'aws_secret_key=xxxx' 
+	\   example2.json
+```
+
+
